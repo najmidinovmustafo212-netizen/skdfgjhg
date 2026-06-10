@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+body {
+    background: linear-gradient(navy, rgb(217, 17, 187), rgb(23, 8, 233));
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.a1 {
+    width: 400px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 15px;
+
+}
+
+aside {
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(242, 234, 234);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+select {
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    font-family: sans-serif;
+
+}
+
+.b {
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: -5px;
+}
+
+p {
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+}
+
+.a2 {
+    border-radius: 20px;
+    width: 150px;
+}
+
+.b2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.b1 {
+    border: none;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+.child video {
+    width: 40%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.child {
+    background: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    border-radius: 80px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+}
+
+footer {
+    background-color: midnightblue;
+}
+
+.cart1 video {
+    width: 40%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.cart1 article {
+    background: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    border-radius: 80px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.cart2 video {
+    width: 40%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.cart2 article {
+    background: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    border-radius: 80px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.mobayn {
+    border: 1px solid blue;
+    background-color: rgb(9, 9, 94);
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+
+.cart3 video {
+    width: 40%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.cart3 article {
+    background: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    border-radius: 80px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.cart4 video {
+    width: 40%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.cart4 article {
+    background: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    border-radius: 80px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.cart5 video {
+    width: 40%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.cart5 article {
+    background: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    border-radius: 80px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.cart6 h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: -5px;
+}
+
+.cart6 button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.cart6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cart6 .m {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.surat .m1 {
+    width: 30px;
+}
+
+.surat {
+    display: flex;
+    gap: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: midnightblue;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.footer1 .z {
+    width: 60px;
+
+}
+
+.footer1 select {
+    border: none;
+    width: 300px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    font-family: sans-serif;
+    padding: 20px 20px;
+    backdrop-filter: blur(25px);
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.discordLogo {
+    width: 100%;
+    background-color: midnightblue;
+    padding: 40px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.footer4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 165px;
+}
+
+.footer5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 115px;
+    margin-right: 50px;
+}
+
+footer .i {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+    font-weight: light;
+    font-family: sans-serif;
+}
+
+@media (max-width:768px) {
+    header a,  select {
+        display: none;
+        flex-direction: column;
+    }
+    .s1 article{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .a1 {
+        width: 100%;
+        margin-left: 150px;
+    }
+    .cart article{
+        flex-direction: column;
+        width: 100%;
+    }
+     .cart1 article{
+        flex-direction: column;
+        width: 100%;
+    }
+     .cart2 article{
+        flex-direction: column;
+        width: 100%;
+    }
+     .cart3 article{
+        flex-direction: column;
+        width: 100%;
+    } .cart4 article{
+        flex-direction: column;
+        width: 100%;
+    } .cart5 article{
+        flex-direction: column;
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        width: 100%;
+     
+        
+    }
+    footer a{
+        display: none;
+    }
+    main video{
+        width: 100%;
+    }
+    .mobayn{
+        display: none ;
+    }
+  .footer1 .z{
+    margin-left: 130px;
+  }
+  .surat{
+    margin-left: 30px;
+  }
+}
